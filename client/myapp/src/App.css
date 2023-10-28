@@ -63,7 +63,7 @@
 }
 
 .linking {
-   color: black;
+   color: yellow;
    text-decoration: none;
 }
 
@@ -78,11 +78,15 @@
    width: 100vw;
    margin-bottom: 100px;
 }
-
+.Homepage{
+   background-color: rgba(64,64,64,1);
+   color: white;
+   height: 130vw;
+}
 .homepageHeader {
    display: flex;
-   background-color: rgb(183, 228, 128);
-   color: white;
+   background-color: black;
+   color: yellow;
    height: 4vw;
    width: 100vw;
    margin: auto;
@@ -125,7 +129,7 @@
 }
 
 .Farmerpage {
-   background-color: whitesmoke;
+   background-color: black;
    display: flex;
    margin-top: 50px;
    border: 2px solid black;
@@ -150,6 +154,7 @@
    font-size: 3vw;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    text-align: left;
+   color: yellow;
 }
 
 .mainList {
@@ -158,6 +163,7 @@
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    list-style-type: symbols(diamond);
    text-align: left;
+   color: yellow;
 }
 
 
@@ -260,13 +266,13 @@
 }
 
 .RegisterFarmer {
-   background-color: blueviolet;
-   margin-top:-2.5vw ;
+   background-color: rgba(64,64,64,1);
+   margin-top:-3vw ;
    height:80vw ;
 }
 
 .finalRegHeading {
-   background-color: darkblue;
+   background-color:black;
    color:yellow ;
    font-size:4vw ;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -276,8 +282,9 @@
 .NewProduct {
    border: solid;
    border-color: lightgrey;
-   background-color: rgb(81, 243, 81) ;
+   background-color: rgba(64,64,64,1) ;
    height:85vw ;
+   width: 100%;
 }
 
 .FarmerComplaint {
@@ -299,8 +306,9 @@
 }
 
 .productHeading {
-   background-color: darkgreen;
-   color: white;
+   margin-top: -0.5vw;
+   background-color: black;
+   color: yellow;
    font-size: 3.5vw;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -373,14 +381,13 @@
 
 .first {
    display: flex;
-   background-color: green;
+   background-color: rgba(64,64,64,1);
    height: 11vh;
    justify-content: center;
    align-items: center;
 }
-
 .welc {
-   color: yellow;
+   color: white;
    font-weight: bold;
    font-size: 2.5vw;
    margin-top:-0.70vw; 
@@ -388,7 +395,7 @@
 }
 
 .second {
-   background-color: yellowgreen;
+   background-color: rgba(64,64,64,1);
    height: 5vw;
    justify-content: center;
 }
@@ -399,7 +406,7 @@
 }
 
 .card {
-   background-color: whitesmoke;
+   background-color: lightgrey;
    margin: 40px;
    width: 18rem;
    border: none;
@@ -416,10 +423,11 @@
 
 .navabar1 {
    display: flex;
-   background-color: rgb(81, 243, 81);
+   background-color:black;
    height: 11vh;
    justify-content: center;
    align-items: center;
+   color: yellow;
 }
 
 .navbar2 {
@@ -438,6 +446,8 @@
    margin: auto;
    height: 50vh;
    border: 2px solid black;
+   background-color: black;
+   color: yellow;
 }
 
 
@@ -465,12 +475,14 @@
    height: 100vh;
 }
 
-.mainBuyer {
-   background-color: antiquewhite;
-}
 
 #foodimager {
    width: 13rem;
+}
+.Buyers{
+   background-color: rgba(64,64,64,1);
+   color: white;
+   height: 170vw;
 }
 .Buyer{
    background-color: whitesmoke;
@@ -540,7 +552,7 @@
 
 .Products 
 {
-   background-color:rgb(144, 238, 144);
+   background-color:black;
 }
 
 
@@ -557,12 +569,12 @@
 
 .finalHeading 
 {
-   color:white ;
+   color:yellow ;
    font-size:4vw ;
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
    font-style: oblique;
    padding:1vw ;
-   background-color: green;
+   background-color: black;
 }
 
 .ProductFinal 
@@ -579,7 +591,7 @@
 .BuyerRegister 
 {
    height:85vw ;
-   background-color: rgb(144, 238, 144); 
+   background-color: rgba(64,64,64,1); 
    position:center ;
    margin-left:-1vw ;
    margin-right:-1vw ;
@@ -656,7 +668,8 @@
 
 .Complaint 
 {
-   background-color: rgb(144, 238, 144);
+
+   background-color: rgba(64,64,64,1);
    margin-top:-2vw ;
    height:60vw ;
 }
@@ -666,7 +679,7 @@
    font-size:3vw ;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-style: oblique;
-   color:black
+   color:white
 }
 
 .complaintPara 
@@ -675,18 +688,31 @@
    font-size:1.5vw ;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-style: oblique;
-   color:black ;
+   color:white;
 }
 
 .complaintLabel 
 {
    font-size:1.5vw ;
    width:15vw ;
-   background-color: rgb(144, 238, 144);
+   background-color: white;
    border-radius: 0.70rem;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-style: oblique;
 }
+
+.imageFarmer {
+   width:20vw ;
+   height:20vw ;
+   border-radius: 50%;
+}
+.imageFarmer2 {
+   width:20vw ;
+   height:20vw ;
+   border-radius: 50%;
+   margin-left: 12vw;
+}
+
 
 
 

@@ -51,8 +51,8 @@ const Homepage = () =>
          <h4 className = "mainList">Sell your products at a reasonable price</h4>
          <h4 className = "mainList">Add your new products by just creating an account</h4>
          </div>
-         <div className="image">
-         <img src={img1} alt="logo" /></div>
+         <div>
+         <img src={img1} className="imageFarmer" alt="logo" /></div>
          </div>
          </div>
          <div className="Farmerpage">
@@ -61,8 +61,8 @@ const Homepage = () =>
          <h4 className = "mainList">Buy goods by just creating an account</h4>
          <h4 className = "mainList">Can contact with respective farmers</h4>
          </div>
-         <div className="image">
-         <img src={img2} alt="logo" /></div>
+         <div>
+         <img src={img2} className="imageFarmer2" alt="logo" /></div>
          </div>
          </div>  
     )

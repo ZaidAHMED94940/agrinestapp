@@ -47,22 +47,20 @@ const HomepageFarmer = () =>
          <h4 className = "mainList">Sell your products at a reasonable price</h4>
          <h4 className = "mainList">Add your new products by just creating an account</h4>
          </div>
-         <div className="image">
-         <img src={img1} alt="logo" /></div>
+         <div>
+         <img src={img1} alt="logo" className="imageFarmer" /></div>
          </div>
-         <div className="gap">
-         <h1 className="hi"> j</h1>
+         <br/>
          <div className="Farmerpage">
          <div className="farmercontent">
          <h3 className = "mainHeading">Retailer</h3>
          <h4 className = "mainList">Buy goods by just creating an account</h4>
          <h4 className = "mainList">Can contact with respective farmers</h4>
          </div>
-         <div className="image">
-         <img src={img2} alt="logo" /></div>
+         <div >
+         <img src={img2} alt="logo" className="imageFarmer2"/></div>
          </div>
          </div>
-      </div>  
     )
 }
 
